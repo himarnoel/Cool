@@ -36,20 +36,27 @@ function App() {
           </span>
         </nav>
         {/* Hero scerction */}
-        <div className="grid md:grid-cols-2 mt-10">
-          <div className="h-full flex flex-col justify-between">
+        <div className="grid md:grid-cols-2 mt-12">
+          <div className="h-full flex flex-col items-start ">
             {" "}
-            <p className="text-[3rem] w-[32rem]">
-              Payment card to <span className="text-[#87FF4F] mr-3">grow</span>
-              <br /> your{" "}
+            <p className="text-[3rem] w-[32rem] mt-2">
+              Payment card <br /> to{" "}
+              <span className="text-[#87FF4F] mr-3">grow</span>
+              your{" "}
               <span className="border-b-4 border-b-[#87FF4F] rounded-sm">
                 business
               </span>
             </p>
-            <p>
+            <p className="w-[25rem] text-sm mt-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et odio
               morbi magna proin purus. Tellus in ornare.
             </p>
+            <div className="flex mt-8 font-medium">
+              <button className="p-3  text-sm rounded-md bg-[#87FF4F] text-black">
+                Request a Demo
+              </button>{" "}
+              <button className="p-3  text-sm  ">Scroll More</button>
+            </div>
           </div>
 
           <div className="flex flex-col items-center   ">
