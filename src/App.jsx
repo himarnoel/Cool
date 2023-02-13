@@ -11,7 +11,7 @@ function App() {
     <div className="font-poppins">
       <div className="bg-[#1F311D] w-full h-[35rem] px-32 text-white ">
         {" "}
-        <nav className="flex  pt-10 items-center w-full justify-between ">
+        <nav className="flex  pt-7 items-center w-full justify-between ">
           <span className="flex items-center">
             <img src={reactLogo} alt="" className="object-contain w-10 mr-3" />
             <span className="font-bold font-poppins text-2xl">DroidPad</span>
