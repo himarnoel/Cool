@@ -52,7 +52,7 @@ function App() {
               morbi magna proin purus. Tellus in ornare.
             </p>
             <div className="flex mt-8 font-medium">
-              <button className="p-3  text-sm rounded-md bg-[#87FF4F] text-black">
+              <button className="p-3  font-medium text-sm rounded-md bg-[#87FF4F] text-black">
                 Request a Demo
               </button>{" "}
               <button className="p-3  text-sm  ">Scroll More</button>
