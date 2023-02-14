@@ -60,7 +60,7 @@ function App() {
           </div>
 
           <div className="flex flex-col items-center   ">
-            <div className="absolute z-[-20rem] rounded-full h-[20rem] w-[20rem] mt-10 border border-white "></div>
+            <div className="absolute z-[-20rem] rounded-full h-[20rem] w-[20rem] mt-10 border border-white roller"></div>
             <img
               src={img2}
               alt=""

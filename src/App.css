@@ -1,0 +1,14 @@
+.roller {
+  border-top-color: #87ff4f !important;
+
+  animation: spin 4s linear infinite !important;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
