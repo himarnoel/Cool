@@ -59,17 +59,17 @@ function App() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center   ">
+          <div className="flex flex-col items-center  relative">
             <div className="absolute z-[-20rem] rounded-full h-[20rem] w-[20rem] mt-10 border border-white roller"></div>
             <img
               src={img2}
               alt=""
-              className="object-contain w-[15rem] relative z-[30rem]"
+              className="object-contain w-[15rem] absolute z-[30rem]"
             />
             <img
               src={img1}
               alt=""
-              className="object-contain w-[25rem] absolute z-[30rem] left-[40rem] top-[10rem]"
+              className="object-contain w-[25rem] absolute  right-[8rem] top-5"
             />{" "}
           </div>
         </div>
